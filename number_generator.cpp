@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -12,6 +13,8 @@ int main() {
   for (int index = 0; index < 1; index++) {
     randomNumber = (rand() % 10000000) + 1;
     cout << randomNumber << endl;
+    getch();
+    return 0;
   }
 
 }
