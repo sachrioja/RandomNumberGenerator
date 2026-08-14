@@ -13,4 +13,7 @@ int main() {
     randomNumber = (rand() % 10000000) + 1;
     cout << randomNumber << endl;
   }
+
+  getch();
+  return0;
 }
