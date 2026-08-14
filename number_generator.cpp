@@ -14,6 +14,4 @@ int main() {
     cout << randomNumber << endl;
   }
 
-  getch();
-  return0;
 }
